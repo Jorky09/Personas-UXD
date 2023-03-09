@@ -13,7 +13,7 @@ import NotFound from "./views/NotFound.vue";
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    name: "Login",
+    name: "Dashboard",
     component: Login,
     meta: { layout: "empty" },
   },
